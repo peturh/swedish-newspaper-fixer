@@ -3,9 +3,22 @@
   "name": "DN Fixer",
   "description": "This fixes the paywall on DN.se",
   "version": "2.0",
-  "content_scripts": [ {
-    "js": ["jquery.min.js","fixer.js"],
-    "matches": [ "http://www.dn.se/*", "https://www.dn.se/*"],
-    "run_at": "document_start"
-  }]
+  "content_scripts": [
+    {
+      "js": [
+        "jquery.min.js",
+        "fixer.js"
+      ],
+      "matches": [
+        "http://www.dn.se/*",
+        "https://www.dn.se/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
 }
