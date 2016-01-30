@@ -13,6 +13,6 @@ function init() {
             $('.article__body-grid-item > p').css("margin-bottom","2.125rem");
             //This is the article
             $(".article__body--mask .article__premium-content").css("display","block");
-        },2000);
+        },2300);
     };
 }
