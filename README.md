@@ -1,6 +1,9 @@
 # DN-Fixer
 A small little extension for removing the paywall on dn.se
 
+## Download
+Download from [Chrome extensions](https://chrome.google.com/webstore/detail/dn-fixer/lcjkpafoglicbloaikcklnjbfcejiepo)
+
 ## Environment
 Tested on Chrome Version 46.0.2490.86 (64-bit)
 
@@ -24,6 +27,6 @@ Tested on Chrome Version 46.0.2490.86 (64-bit)
                 $('.article__body-grid-item > p').css("margin-bottom","2.125rem");
                 //This is the article
                 $(".article__body--mask .article__premium-content").css("display","block");
-            },2000);
+            },2300);
         };
     }
