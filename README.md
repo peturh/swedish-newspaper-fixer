@@ -7,7 +7,7 @@ Download from [Chrome extensions](https://chrome.google.com/webstore/detail/dn-f
 ## Environment
 Tested on Chrome Version 46.0.2490.86 (64-bit)
 
-## Dependencies
+## Dev Dependencies
 * jQuery 2.2.0
 
 ## The code
