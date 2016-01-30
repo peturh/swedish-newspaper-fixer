@@ -1,0 +1,11 @@
+﻿{
+  "manifest_version": 2,
+  "name": "DN Fixer",
+  "description": "This fixes the paywall on DN.se",
+  "version": "2.0",
+  "content_scripts": [ {
+    "js": ["jquery.min.js","fixer.js"],
+    "matches": [ "http://www.dn.se/*", "https://www.dn.se/*"],
+    "run_at": "document_start"
+  }]
+}
