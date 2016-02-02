@@ -11,7 +11,9 @@
       ],
       "matches": [
         "http://www.dn.se/*",
-        "https://www.dn.se/*"
+        "https://www.dn.se/*",
+        "http://www.di.se/*",
+        "https://www.di.se/*"
       ],
       "run_at": "document_start"
     }
