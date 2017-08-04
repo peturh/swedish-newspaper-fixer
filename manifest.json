@@ -6,8 +6,8 @@
   "content_scripts": [
     {
       "js": [
-        "fixer.js",
-        "jquery.js"
+        "jquery.js",
+        "fixer.js"
       ],
       "matches": [
         "http://www.dn.se/*",
