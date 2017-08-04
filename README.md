@@ -4,8 +4,11 @@ A small little extension for removing the paywall on dn.se and on di.se
 ## Download
 Available at:
 
-* [Chrome extensions](https://chrome.google.com/webstore/detail/dn-fixer/lcjkpafoglicbloaikcklnjbfcejiepo)
-* [Firefox addons](https://addons.mozilla.org/en-US/firefox/addon/dn-fixer/)
+* [Chrome extensions](https://chrome.google.com/webstore/detail/swedish-newspaper-fixer/aahiaakplckgcaeonjnnckihfbakijca)
+
+* [Firefox addons](https://addons.mozilla.org/en-US/firefox/addon/dn-fixer/) (currently outdated)
+
+
 
 ## Environment
 Tested on:
