@@ -1,7 +1,7 @@
 ﻿{
   "manifest_version": 2,
   "name": "Swedish newspaper fixer",
-  "description": "This fixes the paywall on DN.se",
+  "description": "This fixes the paywall on dn.se and di.se",
   "version": "1",
   "content_scripts": [
     {
@@ -10,11 +10,16 @@
       ],
       "matches": [
         "http://www.dn.se/*",
-        "https://www.dn.se/*"
+        "https://www.dn.se/*",
+        "http://www.di.se/*",
+        "https://www.di.se/*"
       ],
       "run_at": "document_end"
     }
   ],
   "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
   }
 }
