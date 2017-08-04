@@ -1,5 +1,5 @@
-# DN-Fixer
-A small little extension for removing the paywall on dn.se
+# Swedish newspaper fixer
+A small little extension for removing the paywall on dn.se and on di.se
 
 ## Download
 Available at:
