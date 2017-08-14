@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Swedish newspaper fixer",
   "description": "This fixes the paywall on dn.se and di.se",
-  "version": "1",
+  "version": "2",
   "content_scripts": [
     {
       "js": [
@@ -13,7 +13,9 @@
         "http://www.dn.se/*",
         "https://www.dn.se/*",
         "http://www.di.se/*",
-        "https://www.di.se/*"
+        "https://www.di.se/*",
+        "http://weekend.di.se/*",
+        "https://weekend.di.se/*"
       ],
       "run_at": "document_end"
     }
